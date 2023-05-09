@@ -70,10 +70,10 @@ displayed if the 'eventbrite' field in the header is not set.
 <h2> Thursday 1st June 2023</h2>
 <section>
  Python 
- <a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-faculty-of-science-and-engineering-tickets-610626539417>Science and Engineering</a>
+ <a href="https://www.eventbrite.com.au/e/python-data-carpentry-workshop-faculty-of-science-and-engineering-tickets-610626539417"> Science and Engineering </a>
   <strong>Thursday 1st June 2023</strong>
  <p>Python</p>
- <p><a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-all-other-faculties-tickets-600043194347>All other faculties:</a></p>
+ <p><a "href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-all-other-faculties-tickets-600043194347"> All other faculties: </a></p>
 <p>- Humanities</p>
 <p>- Business and Law</p>
 <p>- Health Sciences</p>

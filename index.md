@@ -17,7 +17,7 @@ instructor: ["Daniel Marrable", "Leigh Tyers"] # boxed, comma-separated list of 
 helper: ["Srikanth Kompella", "Dagmawi Tadesse", "Keegan Smith", "Christian Proud", "Joel Dunstan"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["curtinic@curtin.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  TBD # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:            # Currently 2 eventbrite links, one for S&E, one for non-S&E, will leave blank
+eventbrite:  AAAAAAAAAAAAAAAA          # Currently 2 eventbrite links, one for S&E, one for non-S&E,
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -67,15 +67,18 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
+<div>
+Thursday 1st June 2023
+ Python
+ <a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-faculty-of-science-and-engineering-tickets-610626539417>Science and Engineering</a>
+   Thursday 1st June 2023
+ Python
+ <a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-all-other-faculties-tickets-600043194347>All other faculties:</a>
+- Humanities
+- Business and Law
+- Health Sciences
+- Non-Faculty (edited) 
+ </div>
 {% endif %}
 
 

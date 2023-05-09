@@ -67,18 +67,18 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<div>
-Thursday 1st June 2023
- Python
+<h2> Thursday 1st June 2023</h2>
+<section>
+ Python 
  <a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-faculty-of-science-and-engineering-tickets-610626539417>Science and Engineering</a>
-   Thursday 1st June 2023
- Python
- <a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-all-other-faculties-tickets-600043194347>All other faculties:</a>
-- Humanities
-- Business and Law
-- Health Sciences
-- Non-Faculty (edited) 
- </div>
+  <strong>Thursday 1st June 2023</strong>
+ <p>Python</p>
+ <p><a href=https://www.eventbrite.com.au/e/python-data-carpentry-workshop-all-other-faculties-tickets-600043194347>All other faculties:</a></p>
+<p>- Humanities</p>
+<p>- Business and Law</p>
+<p>- Health Sciences</p>
+<p>- Non-Faculty </p>
+</section>
 {% endif %}
 
 
